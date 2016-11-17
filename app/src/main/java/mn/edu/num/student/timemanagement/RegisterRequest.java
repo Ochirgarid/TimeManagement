@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class RegisterRequest extends StringRequest{
-    private static final String REGISTER_REQUEST_URL = "http://192.168.1.16/register.php";
+    private static final String REGISTER_REQUEST_URL = "http://192.168.1.22/register.php";
     private Map<String, String> params;
 
     public RegisterRequest(String name, String username, String sisi, String email, String password, Response.Listener<String> listener){
